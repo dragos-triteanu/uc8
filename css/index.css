@@ -1,0 +1,94 @@
+body {
+    background-image: url("../icons/background.png");
+    background-size:     cover;
+    background-position: center center;
+    background-color: black;
+    margin-bottom: 60px;
+}
+
+.container {
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+.menu-text {
+    color: white;
+}
+
+.menu-text button{
+    background-color: black;
+    border: none;
+}
+
+.menu-text a {
+    color: white;
+}
+
+.button-nav {
+    margin-top : 3%;
+}
+
+.main-section {
+    z-index: 1;
+}
+
+
+.main-section, .contact-overlay {
+    margin-top:10%;
+}
+
+.contact-overlay{
+    background-color: #0f0f0f;
+    display: none;
+    z-index: 2;
+}
+
+.contact-input, .contact-textarea {
+    width: 100%;
+}
+
+.contact-textarea {
+    height: 100%;
+}
+
+.top-margined{
+    margin-top: 10px;
+}
+
+.contact-input-label {
+    color: white;
+    float: left;
+}
+
+.contact-send-button{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10%;
+}
+
+.btn, .btn-primary {
+    background-color: #191a19;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #444444;
+    border: none;
+}
+.close-contact-button{
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.language-selector, .language-selector a{
+    margin-top: 1%;
+    color: white;
+}

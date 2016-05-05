@@ -1,0 +1,9 @@
+{
+  "name": "uc8",
+  "version": "1.0.0-SNAPSHOT",
+  "dependencies": {
+    "jquery": "~1.12.3",
+    "bootstrap": "latest",
+    "bootstrap-star-rating": "latest"
+  }
+}
