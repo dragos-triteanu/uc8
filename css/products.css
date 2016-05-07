@@ -1,0 +1,81 @@
+
+.productContainer {
+    background-color: black;
+    width: 100%;
+    height: 320px;
+}
+
+.productContainer div {
+    height: 100%;
+}
+
+/* remove spacing between columns */
+.row.no-gutter [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+.productTextContainer{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.productTextContainer h2 {
+    color: #21e418;
+}
+
+.productTextContainer .row {
+    text-align: centers;
+}
+
+.purple-circle {
+    background-color: #690185;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    float: none;
+    margin: 0 auto;
+}
+
+.dark-gray-area {
+    background-color: #171717;
+    width: 100%;
+}
+
+.top-margined {
+    margin-top: 10px;
+}
+
+.white-paragraph-text{
+    color: white;
+}
+
+.green-paragraph-text{
+    color: #21e418;
+}
+
+.top-bottom-margined {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.details-footer {
+    background-color: #1b1b1b;
+}
+
+.purple-paragraph-text{
+    color: #690185;
+}
+
+.emailSpace p {
+    float: left;
+    margin-left: 3px;
+}
+
+.address-location p {
+    margin-top: 0px;
+    margin-top: 0px;
+    margin: 0;
+    color: #4f4f4f;
+}
