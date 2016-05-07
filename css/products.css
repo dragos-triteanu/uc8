@@ -41,6 +41,11 @@
 .dark-gray-area {
     background-color: #171717;
     width: 100%;
+    text-align: center;
+}
+
+.black-area{
+    background-color: black;
 }
 
 .top-margined {
