@@ -29,8 +29,8 @@
 .purple-circle {
     background-color: #690185;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 13px;
+    height: 13px;
     float: none;
     margin: 0 auto;
 }
@@ -80,4 +80,55 @@
     margin-top: 0px;
     margin: 0;
     color: #4f4f4f;
+}
+
+.image-container {
+    background-image: url("../images/banner%201.jpg");
+}
+
+.hidden {
+    display: none;
+}
+
+
+.blue-banner {
+    background: linear-gradient(45deg,#0581c0,#76dced);
+}
+
+.left-floated {
+    float: right;
+}
+
+.character-banner {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.character-banner {
+    text-align: left;
+}
+
+.gray-banner {
+    background: linear-gradient(45deg,#a2a2a2,#c9c9c9);
+}
+
+.gray-banner img {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 20%;
+}
+
+.purple-banner {
+    background: linear-gradient(45deg,#524ec4,#673ab3);
+}
+
+.purple-banner img {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: -15%;
+}
+
+
+.cat-banner {
+    margin-left: -25%;
 }
