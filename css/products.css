@@ -136,6 +136,24 @@
     float: left;
 }
 
+.previous-button {
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+.next-button {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.previous-button , .next-button {
+    width: 200px;
+}
+
+
 .nav-arrows a, .nav-arrows img {
     float: left;
     height: 50px;

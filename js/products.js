@@ -61,6 +61,8 @@ $(document).on("ready", function () {
 
         var Page = (function() {
             var $navArrows = $( '#nav-arrows' ).hide(),
+                $navPrevious = $(".previous-button"),
+                $navNext = $(".next-button"),
                 $navDots = $( '#nav-dots' ).hide(),
                 $nav = $navDots.children( 'span' ),
                 $shadow = $( '#shadow' ).hide(),
@@ -88,14 +90,14 @@ $(document).on("ready", function () {
                 initEvents = function() {
 
                     // add navigation events
-                    $navArrows.children( ':first' ).on( 'click', function() {
+                    $navPrevious.on( 'click', function() {
 
                         slicebox.previous();
                         return false;
 
                     } );
 
-                    $navArrows.children( ':last' ).on( 'click', function() {
+                    $navNext.on( 'click', function() {
 
                         slicebox.next();
                         return false;
