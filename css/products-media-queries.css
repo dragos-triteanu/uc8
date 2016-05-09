@@ -1,0 +1,26 @@
+@media only screen
+    and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: portrait),
+    only screen
+    and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: landscape) {
+        .white-paragraph-text {
+            font-size: 15px;
+        }
+    .gray-footer-text{
+        font-size: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .email-text{
+        font-size: 10px;
+    }
+
+    .inquire-now-text {
+        font-size: 11px;
+    }
+
+    .cat-banner {
+        margin-left: -55%;
+    }
+
+}

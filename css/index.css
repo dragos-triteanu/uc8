@@ -45,7 +45,7 @@ body {
 }
 
 .contact-overlay{
-    background-color: #0f0f0f;
+    background: url("../images/contactBanner.png");
     display: none;
     z-index: 2;
 }
