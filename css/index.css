@@ -50,12 +50,18 @@ body {
     z-index: 2;
 }
 
+.contact-input {
+    height: 50px;
+    padding-left: 10px;
+}
+
 .contact-input, .contact-textarea {
     width: 100%;
 }
 
 .contact-textarea {
-    height: 100%;
+    height: 240px;
+    padding-left: 10px;
 }
 
 .top-margined{
@@ -86,6 +92,11 @@ body {
     border-radius: 25px;
     border: 1px solid white;
     background-color: white;
+    float: right;
+}
+
+#closeContactButton {
+    float: right;
 }
 
 .language-selector, .language-selector a{
@@ -96,8 +107,12 @@ body {
 .button-nav a {
     font-family: Montserrat;
     font-size: 20px;
+    margin-top: 10%;
 }
 
 .contact-form {
-    
+    margin-top: 3%;
 }
+
+
+
