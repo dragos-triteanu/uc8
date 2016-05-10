@@ -92,3 +92,12 @@ body {
     margin-top: 1%;
     color: white;
 }
+
+.button-nav a {
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.contact-form {
+    margin-top: -45% !important;
+}

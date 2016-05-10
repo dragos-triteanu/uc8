@@ -18,4 +18,8 @@
     src: url(../fonts/Open_Sans/OpenSans-ExtraBold.ttf) format("truetype");
 }
 
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-Regular.ttf) format("truetype");
+}
 
