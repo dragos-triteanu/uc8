@@ -186,3 +186,10 @@ body {
     margin-top: 0px;
 }
 
+.demo-text:hover{
+    color: white;
+}
+
+.demo-text {
+    color: #21e418;
+}
