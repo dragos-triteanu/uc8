@@ -4,6 +4,8 @@
     <title>UC8</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=height=device-height, initial-scale=1">
+
     <link rel="stylesheet" type="text/css" href="libs/bootstrap/dist/css/bootstrap.min.css" >
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
@@ -12,7 +14,9 @@
 </head>
 
 <body>
-        <div class="container">
+
+    <div class="wrap">
+        <div class="container clear-top">
             <div class="language-selector">
                 <div class="row">
                     <div class="col-md-2 col-xs-4 col-md-offset-10 col-xs-offset-8">
@@ -50,7 +54,7 @@
                     <div class="contact-form">
                         <div class="row">
                             <div class="col-md-6 col-md-offset-2 col-xs-5 col-xs-offset-2">
-                                <h3 style="contact-us-text">联系我们</h3>
+                                <h3 class="contact-us-text">联系我们</h3>
                             </div>
                             <div class="col-md-1 col-md-offset-1 col-xs-2 col-xs-offset-1">
                                 <h3><img src="images/closeButton.png" class="img-responsive" id="closeContactButton"></h3>
@@ -80,23 +84,25 @@
                     </div>
                 </div>
             </div>
+            <div id="push"></div>
         </div>
+    </div>
 
-        <footer class="footer navbar-fixed-bottom">
-            <div class="container">
-                <div class="row icon-container">
-                    <div class="col-md-2 col-md-offset-3 col-xs-4">
-                        <img src="images/icon_apple.png" style="float: right;">
-                    </div>
-                    <div class="col-md-2 col-xs-4">
-                        <img src="images/icon_android.png">
-                    </div>
-                    <div class="col-md-2 col-xs-4">
-                        <img src="images/icon_windows.png" style="float: left;">
-                    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row icon-container">
+                <div class="col-md-2 col-md-offset-3 col-xs-4">
+                    <img src="images/icon_apple.png" style="float: right;">
+                </div>
+                <div class="col-md-2 col-xs-4">
+                    <img src="images/icon_android.png">
+                </div>
+                <div class="col-md-2 col-xs-4">
+                    <img src="images/icon_windows.png" style="float: left;">
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
 </body>
 
 
