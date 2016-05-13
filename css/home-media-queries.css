@@ -12,6 +12,10 @@ and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: la
         height: 180px;
         padding-left: 10px;
     }
+
+    .contact-us-text{
+        font-size: 1.3em;
+    }
 }
 
 
