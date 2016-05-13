@@ -44,7 +44,7 @@ $(document).on("ready", function () {
         autoplay: true,
 
         // time (ms) between each rotation, if autoplay is true
-        interval: 5000,
+        interval: 3000,
 
         // the fallback will just fade out / fade in the items
         // this is the time fr the fade effect
