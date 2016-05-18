@@ -26,7 +26,7 @@ $(document).on("ready", function(){
 
     function sendTheMail(name,email,message){
         $.ajax({
-            url: "http://localhost:8089/sendEmail",
+            url: "http://uc8.co:8089/sendEmail",
             type: "POST",
             dataType: "application/x-www-form-urlencoded",
             data : {
